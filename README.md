@@ -18,6 +18,8 @@ Blink an external LED connected to Pin 10 via a current-limiting resistor.
 
 ## Schematic
 ![Schematic](schematic.png)
+## Circuit
+![Circuit](circuit.png)
 
 ## How it works
 1. LED turns ON for 500ms
