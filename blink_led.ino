@@ -1,4 +1,5 @@
-// Blink LED - Pin 10
+// Blink External LED - Pin 10
+// Components: LED, 220Ω Resistor, Breadboard
 // Arduino Uno
 
 int led = 10;
@@ -8,8 +9,8 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(led, HIGH); 
-  delay(2000); // 2 SEC
+  digitalWrite(led, HIGH);
+  delay(500);
   digitalWrite(led, LOW);
-  delay(2000); // 2 SEC
+  delay(500);
 }
